@@ -40,14 +40,14 @@ class Login_window:
         self.frame.pack()
 
         #background image
-        self.bgImage=ImageTk.PhotoImage(file="C:/Users/akaas/Desktop/Project/bg4.jpeg")#insert bg4 here
+        self.bgImage=ImageTk.PhotoImage(file="")#insert bg4 here with file location 
         self.img=Label(master, image=self.bgImage)
         self.img.place(x=0,y=0,relwidth=1, relheight=1)
 
         #get all images
-        self.user_icon=PhotoImage(file="C:/Users/akaas/Desktop/Project/user1.png")#insert user1 here
-        self.password_icon=PhotoImage(file="C:/Users/akaas/Desktop/Project/password1.png")#insert password1 here
-        self.login_icon=PhotoImage(file="C:/Users/akaas/Desktop/Project/login5.png")#insert login5 here
+        self.user_icon=PhotoImage(file="")#insert user1 here with file location
+        self.password_icon=PhotoImage(file="")#insert password1 here with file location
+        self.login_icon=PhotoImage(file="")#insert login5 here with file location
 
 
         Login_frame=Frame(master,bg="white")
@@ -100,7 +100,7 @@ class Main_menu:
 
 
         #background image
-        self.bgImage=PhotoImage(file="C:/Users/akaas/Desktop/Project/bg.png")
+        self.bgImage=PhotoImage(file="")# Enter file location of image
         self.img=Label(master,image=self.bgImage)
         self.img.place(x=0,y=0,relwidth=1, relheight=1)
 
@@ -139,9 +139,6 @@ class Main_menu:
     def new_window_expiredinventory(self):
         self.newWindow=Toplevel(self.master)
         self.application=expired_inventory(self.newWindow)
-
-
-
 
 class dealer:
     def __init__(self, master):
@@ -518,7 +515,6 @@ class sales:
         self.master.geometry("1366x768+0+0"
 
 
-        #suraj's code
         self.left = Frame(master, width=800, bg='white', height=768)
         self.left.pack(side=LEFT)
 
@@ -824,7 +820,6 @@ class sales:
         self.fd.clear()
         self.sp.clear()
 
-#akash's code
 class inventory:
     def __init__(self, master,*args,**kwargs):
         self.master = master
