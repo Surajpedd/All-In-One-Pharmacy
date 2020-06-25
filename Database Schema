@@ -1,7 +1,84 @@
 Database Pharmacy
 TABLES
 1.Inventory
+
+mysql> desc inventory;
++--------------+--------------+------+-----+---------+-------+
+| Field        | Type         | Null | Key | Default | Extra |
++--------------+--------------+------+-----+---------+-------+
+| Prod_name    | varchar(100) | NO   | PRI | NULL    |       |
+| DOE          | date         | NO   | PRI | NULL    |       |
+| Prod_ID      | int          | YES  |     | NULL    |       |
+| Qty          | int          | NO   |     | NULL    |       |
+| CostPrice    | int          | NO   |     | NULL    |       |
+| SellingPrice | int          | NO   |     | NULL    |       |
++--------------+--------------+------+-----+---------+-------+
+6 rows in set (0.00 sec)
+
 2.Purchase
+
+mysql> desc purchase;
++-----------+--------------+------+-----+---------+----------------+
+| Field     | Type         | Null | Key | Default | Extra          |
++-----------+--------------+------+-----+---------+----------------+
+| P_ID      | int          | NO   | PRI | NULL    | auto_increment |
+| Prod_name | varchar(100) | YES  |     | NULL    |                |
+| Prod_ID   | int          | YES  |     | NULL    |                |
+| D_ID      | int          | NO   |     | NULL    |                |
+| D_name    | varchar(100) | YES  |     | NULL    |                |
+| Qty       | int          | YES  |     | NULL    |                |
+| CostPrice | int          | YES  |     | NULL    |                |
+| DOE       | date         | NO   |     | NULL    |                |
+| DOP       | date         | NO   |     | NULL    |                |
++-----------+--------------+------+-----+---------+----------------+
+9 rows in set (0.01 sec)
+
 3.Dealer
+
+mysql> desc dealer;
++--------+--------------+------+-----+---------+----------------+
+| Field  | Type         | Null | Key | Default | Extra          |
++--------+--------------+------+-----+---------+----------------+
+| D_ID   | int          | NO   | PRI | NULL    | auto_increment |
+| D_name | varchar(100) | NO   |     | NULL    |                |
+| D_phno | varchar(50)  | NO   |     | NULL    |                |
+| D_add  | varchar(255) | YES  |     | NULL    |                |
++--------+--------------+------+-----+---------+----------------+
+4 rows in set (0.00 sec)
+
 4.Sales
+
+mysql> desc sales;
++------------+--------------+------+-----+---------+----------------+
+| Field      | Type         | Null | Key | Default | Extra          |
++------------+--------------+------+-----+---------+----------------+
+| S_ID       | int          | NO   | PRI | NULL    | auto_increment |
+| S_date     | date         | NO   |     | NULL    |                |
+| Cust_Fname | varchar(50)  | YES  |     | NULL    |                |
+| Cust_Lname | varchar(50)  | YES  |     | NULL    |                |
+| Prod_name  | varchar(100) | YES  |     | NULL    |                |
+| Qty        | int          | NO   |     | NULL    |                |
+| U_price    | int          | YES  |     | NULL    |                |
+| T_price    | int          | YES  |     | NULL    |                |
+| DOE        | date         | NO   |     | NULL    |                |
++------------+--------------+------+-----+---------+----------------+
+9 rows in set (0.00 sec)
+
 5.Expired Inventory
+
+mysql> desc expired_inventory;
++--------------+--------------+------+-----+---------+-------+
+| Field        | Type         | Null | Key | Default | Extra |
++--------------+--------------+------+-----+---------+-------+
+| Prod_name    | varchar(100) | NO   | PRI | NULL    |       |
+| DOE          | date         | NO   | PRI | NULL    |       |
+| Prod_ID      | int          | YES  |     | NULL    |       |
+| Qty          | int          | NO   |     | NULL    |       |
+| CostPrice    | int          | NO   |     | NULL    |       |
+| SellingPrice | int          | NO   |     | NULL    |       |
++--------------+--------------+------+-----+---------+-------+
+6 rows in set (0.00 sec)
+
+
+
+
