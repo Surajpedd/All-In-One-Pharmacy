@@ -1,5 +1,6 @@
 # Pharmacy-Management-System
-## DBMS Project - First year
+DBMS Project - First year
+
 The Pharmacy Management System has been created to assist pharmacies as managing with records on papers will be tedious and difficult to keep track of inventories.
 
 # Objective :
@@ -13,3 +14,5 @@ The Pharmacy Management System has been created to assist pharmacies as managing
 * Also, provide security to the Pharmacy by ensuring that only owners can access the data with a login encryption
 
 * Ensure user friendly interface and vivid visuals for ease of use
+
+# Screenshots :
