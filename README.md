@@ -1,13 +1,8 @@
 # Pharmacy-Management-System
-DBMS Project - First year 
-
-# Problem Statement :
-
-The Pharmacy Management System has been created to assist pharmacies as managing with records on papers will be tedious and difficult to keep track of inventories with regards to the drugs in the store, expiry date, quantity of drugs available as well as the dealers whom they interacted with. It also helps generating an invoice during sales so as to make it a user friendly software.
+## DBMS Project - First year
+The Pharmacy Management System has been created to assist pharmacies as managing with records on papers will be tedious and difficult to keep track of inventories.
 
 # Objective :
-
-The Main Objectives of our Project are as follows :-
 
 * Maintain a DBMS for the Inventory, Sales, Dealers ,Purchases
 
