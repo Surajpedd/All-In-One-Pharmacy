@@ -21,6 +21,6 @@ Written using Python with MySQL as backend.
   * Tkinter for Graphical UI
   * Pillow ( Python Imaging Library ) for background Images
   To use this library, type the below command in Command Prompt
-  ```
-  pip install pillow
-  ```
+    ```
+      pip install pillow
+    ```
