@@ -1,11 +1,11 @@
-# Pharmacy-Management-System
+# Pharmacy Management System
 
-## DBMS Project - First year
+### DBMS Project 
 
 The Pharmacy Management System has been created to assist pharmacies as managing with records on papers will be tedious and difficult to keep track of inventories.
 Written using Python with MySQL as backend.
 
-## Objective :
+### Objective :
 
 * Maintain a DBMS for the Inventory, Sales, Dealers ,Purchases
 
@@ -17,7 +17,7 @@ Written using Python with MySQL as backend.
 
 * Ensure user friendly interface and vivid visuals for ease of use
 
-## Python Libraries Used :
+### Python Libraries Used :
   * Tkinter for Graphical UI
   * Pillow ( Python Imaging Library ) for background Images<br>
   To use this library, type the below command in Command Prompt<br><br>
